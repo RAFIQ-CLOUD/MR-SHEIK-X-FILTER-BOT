@@ -12,13 +12,13 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/Stark_Hd_Movies')
-    START_TXT = environ.get("START_TXT", '''<b>Hey... {} 
+    START_TXT = environ.get("START_TXT", '''<b>ʜᴇʏ... {} 
 
-My Name is <a href=https://t.me/StarkHdMovie_bot><b>𝐒𝐭𝐚𝐫𝐤𝐇𝐃𝐌𝐨𝐯𝐢𝐞 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫</b></a>
+ᴍʏ ɴᴀᴍᴇ ɪs <a href=https://t.me/StarkHdMovie_bot><b>𝐒𝐭𝐚𝐫𝐤𝐇𝐃𝐌𝐨𝐯𝐢𝐞 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫</b></a>
 
-I Can Provide MOVIES/SERIES And Lot More... Don't Waste Your Time by Looking To Add Me To Your Group.. Add & Enjoy Meh Power
+ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs/sᴇʀɪᴇs ᴀɴᴅ ʟᴏᴛ ᴍᴏʀᴇ... ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ʙʏ ʟᴏᴏᴋɪɴɢ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.. ᴀᴅᴅ & ᴇɴᴊᴏʏ ᴍᴇʜ ᴘᴏᴡᴇʀ
 
-Made With ❤️ By <a href=https://t.me/MR_X_MIRROR><b>𝐌𝐑 𝐗 𝐌𝐈𝐑𝐑𝐎𝐑</b></a></b>''')
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ <a href=https://t.me/MR_X_MIRROR><b>𝐌𝐑 𝐗 𝐌𝐈𝐑𝐑𝐎𝐑</b></a></b>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>
