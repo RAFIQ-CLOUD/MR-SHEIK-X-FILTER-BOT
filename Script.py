@@ -11,10 +11,10 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/TeamTGMoviez')
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/Stark_Hd_Movies')
     START_TXT = environ.get("START_TXT", '''<b>Hey... {} 
 
-My Name is <a href=https://t.me/TeamTGMoviez_X_Filter_Bot><b>𝐓𝐞𝐚𝐦𝐓𝐆𝐌𝐨𝐯𝐢𝐞𝐳 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫</b></a>
+My Name is <a href=https://t.me/StarkHdMovie_bot><b>𝐒𝐭𝐚𝐫𝐤𝐇𝐃𝐌𝐨𝐯𝐢𝐞 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫</b></a>
 
 I Can Provide MOVIES/SERIES And Lot More... Don't Waste Your Time by Looking To Add Me To Your Group.. Add & Enjoy Meh Power
 
@@ -24,16 +24,16 @@ Made With ❤️ By <a href=https://t.me/MR_X_MIRROR><b>𝐌𝐑 𝐗 𝐌𝐈�
     ABOUT_TXT = """<b>
 ╭────[ About Meh ]────⍟
 │
-├⍟ Meh Name : <a href=https://t.me/TeamTGMoviez_X_Filter_Bot><b>𝐓𝐞𝐚𝐦𝐓𝐆𝐌𝐨𝐯𝐢𝐞𝐳 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫</b></a>
-├⍟ Owner : <a href=https://t.me/tamilangowtham><b>𝐓𝐀𝐌𝐈𝐋𝐀𝐍 𝐆𝐎𝐖𝐓𝐇𝐀𝐌</b></a>
-├⍟ Version : MR 2.1 [ Stable ]
+├⍟ Meh Name : <a href=https://t.me/StarkHdMovie_bot><b>𝐒𝐭𝐚𝐫𝐤𝐇𝐃𝐌𝐨𝐯𝐢𝐞 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫</b></a>
+├⍟ Owner : <a href=https://t.me/SheikX_TG><b>𝐒𝐡𝐞𝐢𝐤 𝐗</b></a>
+├⍟ Version : MR 2.2 [ Stable ]
 ├⍟ Server : VPS
 ├⍟ Language : Python 3.10.5
 ├⍟ Framework : Pyrogram 1.4.16
 ├⍟ Developer : <a href=https://t.me/MR_X_MIRROR><b>𝐌𝐑 𝐗 𝐌𝐈𝐑𝐑𝐎𝐑</b></a>
-├⍟ Powered By  : <a href=https://t.me/TeamTGMoviez><b>𝐓𝐞𝐚𝐦𝐓𝐆𝐌𝐨𝐯𝐢𝐞𝐳</b></a>
+├⍟ Powered By  : <a href=https://t.me/Stark_Hd_Movies><b>𝐒𝐭𝐚𝐫𝐤𝐇𝐃𝐌𝐨𝐯𝐢𝐞𝐬</b></a>
 │
-╰────[ <a href=https://t.me/TeamTGMoviez><b>𝐓𝐞𝐚𝐦𝐓𝐆𝐌𝐨𝐯𝐢𝐞𝐳</b></a> ]────⍟<b>"""
+╰────[ <a href=https://t.me/Stark_Hd_Movies><b>𝐒𝐭𝐚𝐫𝐤𝐇𝐃𝐌𝐨𝐯𝐢𝐞𝐬</b></a> ]────⍟<b>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You<b>
 » Contact Me @MR_X_MIRROR<b>"""
@@ -61,7 +61,7 @@ Made With ❤️ By <a href=https://t.me/MR_X_MIRROR><b>𝐌𝐑 𝐗 𝐌𝐈�
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/TeamTGMoviez)</code>
+<code>[Button Text](buttonurl:https://t.me/Stark_Hd_Movies)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -122,11 +122,11 @@ This module only works for my admins
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
 <b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
 <b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
-<b>᚛› 𝐓𝐞𝐚𝐦𝐓𝐆𝐌𝐨𝐯𝐢𝐞𝐳 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫 </b>
+<b>᚛› 𝐒𝐭𝐚𝐫𝐤𝐇𝐃𝐌𝐨𝐯𝐢𝐞 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫 </b>
 """
     LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫  
     
 <b>᚛› 𝐈𝐃 - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
-<b>᚛› 𝐓𝐞𝐚𝐦𝐓𝐆𝐌𝐨𝐯𝐢𝐞𝐳 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫 </b>
+<b>᚛› 𝐒𝐭𝐚𝐫𝐤𝐇𝐃𝐌𝐨𝐯𝐢𝐞 𝐗 𝐅𝐢𝐥𝐭𝐞𝐫 </b>
 """
