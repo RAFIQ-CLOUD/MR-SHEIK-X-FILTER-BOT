@@ -55,11 +55,7 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
-                                                 caption=f'<b>Hey There, {u.mention} 😍\n welcome to {message.chat.title} How are you?\n\n👉Request Format
-Movie Name (Correct spelling) 
-Year Or Language\n\n👉 Search On Google & Paste Here! With Correct Proper Spelling! To Get Movie\n\n👉Example :
-Thunivu (2023) Tamil 
-Varisu (2023) Tamil\n\n👉Don't Type ( Movie, bro, anupuga, hd ) You won't get Anything!</b>',
+                                                 caption=f'<b>Hey there... {u.mention} 😍\nWelcome to {message.chat.title} How Are You?\n\n👉Request Format\nMovie Name (Correct spelling)\nYear Or Language\n\n👉 Search On Google & Paste Here! With Correct Proper Spelling! To Get Movie\n\n👉Example :\nThunivu (2023) Tamil\nVarisu (2023) Tamil\n\n👉Don't Type ( Movie, bro, anupuga, hd ) You won't get Anything!</b>',
 
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='https://t.me/Stark_Hd_Movies') ],
 
