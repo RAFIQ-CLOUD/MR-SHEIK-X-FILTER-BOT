@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ TeamTGMoviez ⚡', url='https://t.me/TeamTGMoviez')
+                InlineKeyboardButton('⚡ StarkHdMovies ⚡', url='https://t.me/Stark_Hd_Movies')
             ],
             [
-                InlineKeyboardButton('⚡ Request Group ⚡', url=f"https://t.me/+2sQK29DGzmtiYmNl"),
+                InlineKeyboardButton('⚡ Request Group ⚡', url=f"https://t.me/+mPx3pZWhDDdmOTk1"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ Add Me To Your Groups ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ TeamTGMoviez ⚡', url='https://t.me/TeamTGMoviez'),
-            InlineKeyboardButton('⚡ Request Group ⚡', url='https://t.me/+2sQK29DGzmtiYmNl')
+            InlineKeyboardButton('⚡ TeamTGMoviez ⚡', url='https://t.me/Stark_Hd_Movies'),
+            InlineKeyboardButton('⚡ Request Group ⚡', url='https://t.me/+mPx3pZWhDDdmOTk1')
             ],[
             InlineKeyboardButton('❗ Help ❗', callback_data='help'),
             InlineKeyboardButton('📬 About Meh 📬', callback_data='about')
@@ -95,8 +95,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ Add Me To Your Groups ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ TeamTGMoviez ⚡', url='https://t.me/TeamTGMoviez'),
-            InlineKeyboardButton('⚡ Request Group ⚡', url='https://t.me/+2sQK29DGzmtiYmNl')
+            InlineKeyboardButton('⚡ TeamTGMoviez ⚡', url='https://t.me/Stark_Hd_Movies'),
+            InlineKeyboardButton('⚡ Request Group ⚡', url='https://t.me/+mPx3pZWhDDdmOTk1')
             ],[
             InlineKeyboardButton('❗ Help ❗', callback_data='help'),
             InlineKeyboardButton('📬 About Meh 📬', callback_data='about')
@@ -251,7 +251,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('❤️️JOIN❤️️', url='https://t.me/TeamTGMoviez') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('❤️️JOIN❤️️', url='https://t.me/Stark_Hd_Movies') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
