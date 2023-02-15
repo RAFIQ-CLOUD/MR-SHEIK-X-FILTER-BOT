@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('How To Use Me', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('📢 UPDATES 📢', url='https://t.me/TeamTGMoviez')
+            InlineKeyboardButton('📢 UPDATES 📢', url='https://t.me/Stark_Hd_Movies')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -55,11 +55,15 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
-                                                 caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\n You Can Find Any Movies and Series ! if you need any movie then then enter the movie name + years 👍\n\nEnter Only Movie Name like Thiz👇\n\nVikram ✅\nVikram 2022 ✅\nVikram Tamil Bruh ❌\n\nSeries Name Like Thiz👇\n\nThe Boys Season 1 ✅\n The Boys ❌\nThe Boys all season ❌</b>',
+                                                 caption=f'<b>Hey There, {u.mention} 😍\n welcome to {message.chat.title} How are you?\n\n👉Request Format
+Movie Name (Correct spelling) 
+Year Or Language\n\n👉 Search On Google & Paste Here! With Correct Proper Spelling! To Get Movie\n\n👉Example :
+Thunivu (2023) Tamil 
+Varisu (2023) Tamil\n\n👉Don't Type ( Movie, bro, anupuga, hd ) You won't get Anything!</b>',
 
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='https://t.me/TeamTGMoviez') ],
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='https://t.me/Stark_Hd_Movies') ],
 
-                                                                                      [ InlineKeyboardButton('🔥  ↭ Request Channel ↭  🔥', url='https://t.me/+2sQK29DGzmtiYmNl') ]
+                                                                                      [ InlineKeyboardButton('🔥  ↭ Request Channel ↭  🔥', url='https://t.me/+mPx3pZWhDDdmOTk1') ]
 
                                                                                     ] )
 
