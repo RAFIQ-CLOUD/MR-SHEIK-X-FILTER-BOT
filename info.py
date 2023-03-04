@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '23149899'))
-API_HASH = environ.get('API_HASH', '7d2761a20d5ab9e9fd0a46865227f6da')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6113806284:AAG85K2YuPvhJTR5jK2In48q1uMwhbWoSkw")
+API_ID = int(environ.get('API_ID', '5397731'))
+API_HASH = environ.get('API_HASH', '051ebba43e161aa6f6456af524bad699')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6155934958:AAFyt1JwlGpGdpRj44LcvJe9ZDv4WrNGQ3g")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -26,10 +26,10 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/f64e62510dfd1a7d1701c.jpg h
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5784009732 5915574390').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001845243778').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001695733718').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5784009732 5915574390 5923750208').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001603165769')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001810010892')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -40,7 +40,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001678734437'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001884674694'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MR_OTT_REQUEST')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
